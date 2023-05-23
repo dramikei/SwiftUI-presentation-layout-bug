@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var isPresented = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 16) {
+
+            Button {
+
+            } label: {
+                Text("Testing")
+            }
+            .background(Color.red)
+
+            Button {
+                isPresented = true
+            } label: {
+                Text("Pop Over!")
+            }
         }
-        .padding()
+        .popover(isPresented: $isPresented) {
+            VStack {
+                Text("Minimize app and reopen for layout bug!")
+            }
+        }
     }
 }
 
