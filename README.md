@@ -22,11 +22,11 @@ https://github.com/dramikei/SwiftUI-presentation-layout-bug/assets/18085407/3d00
 
 Bug does not seem to affect buttons embeded inside a NavigationBar, but all other buttons/tap gestures are affected.
 
-### Before triggering bug
+### ViewHeirarchy Before triggering bug
 
 <img width="1266" alt="Screenshot 2023-05-23 at 5 18 01 PM" src="https://github.com/dramikei/SwiftUI-presentation-layout-bug/assets/18085407/87168f78-b75b-463f-a74e-c347b2d7cffb">
 
-### After triggering bug
+### ViewHeirarchy After triggering bug
 
 <img width="1267" alt="Screenshot 2023-05-23 at 5 19 05 PM" src="https://github.com/dramikei/SwiftUI-presentation-layout-bug/assets/18085407/62f45f5b-7009-4f89-bdbd-702a00aa4400">
 
